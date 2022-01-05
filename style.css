@@ -31,7 +31,7 @@ h1 {
     margin-bottom: 30px;
 }
 label {
-    margin: 5px 0;
+    margin: 10px 0;
     font-size: 2.2rem;
     color: rgb(117, 32, 190);
 }
@@ -39,12 +39,17 @@ input {
     padding: 5px 20px;
     border: none;
     background-color: rgb(255, 255, 255);
+    color: rgb(99, 92, 102);
     font-size: 2rem;
     outline: none;
     border: 2px solid transparent;
 }
 input:focus {
     border: 2px solid rgb(117, 32, 190);
+}
+input::placeholder {
+    color: #989ba0;
+    font-size: 1.8rem;
 }
 button {
     margin-top: 20px;
