@@ -23,7 +23,7 @@ function recebeEvento(event) {
     const imc = getIMC(peso, altura);
     const nivelImc = getNivelImc(imc);
 
-    const mensagem = `Seu ${imc} (${nivelImc}).`
+    const mensagem = `Seu IMC é ${imc} (${nivelImc}).`
 
     setResultado(mensagem, true);
 }
